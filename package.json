@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test测试",
+  "homepage": "",
+  "author": {
+    "name": "zhang",
+    "email": "317482454@qq.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-cachebust": "0.0.6",
+    "gulp-less": "^3.0.0",
+    "gulp-minify-css": "^2.15.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^5.1.0",
+    "gulp-rev-append": "^0.1.6"
+  },
+  "dependencies": {
+    "gulp-cachebust": "0.0.6"
+  }
+}
