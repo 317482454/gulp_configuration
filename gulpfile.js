@@ -25,20 +25,14 @@ gulp.task('less', function () {
 
 });
 
-gulp.task('brower-sync',function(){
-    browserSync.init({
-        server:{
-            baseDir:"/",
 
-        }
-    });
-});
 
 
 gulp.task('load',function(){
     browserSync.init({
-        proxy: "192.168.10.167:8181",//代理
-        /*port: 81*/
+        server:{
+            baseDir:"./",
+        }
     });
 })
 
